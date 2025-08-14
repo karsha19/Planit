@@ -4,7 +4,7 @@ import './App.css'
 import Footer from './components/Footer.jsx'
 import { v4 as uuidv4 } from 'uuid';
 import { MdDelete } from "react-icons/md";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import { FaEdit } from "react-icons/fa";
 
 function App() {
@@ -57,7 +57,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <SpeedInsights />
+     
       <div className="flex flex-col container mx-auto min-h-[70vh] text-white my-10 p-4 rounded-lg items-center justify-center shadow-2xl bg-purple-500 font-sans
         sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl
         sm:p-6 md:p-8 lg:p-10">
